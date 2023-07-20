@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital@1&family=Libre+Baskerville:ital@1&family=Roboto:ital,wght@0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&family=IBM+Plex+Mono:ital@1&family=Libre+Baskerville:ital@1&family=Roboto:ital,wght@0,400;1,300&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+#navbar{
+    background-color:rgb(184, 5, 5);
+    padding: 13px 4px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#navbar ul{
+    display:flex;
+    flex-direction:row;
+    /* justify-content: center; */
+    align-items: center;
+   }
+
+#navbar li{
+list-style: none;
+}
+
+#navbar li a{
+    font-size: 1.2rem;
+    color:white;
+    text-decoration: none;
+    padding: 13px 30px;
+}
+#navbar li a:hover{
+color: black;
+}
+#introSection{
+    color: white;
+    font-size: 2.0rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url("/static/bg3.jpg") no-repeat center / cover;
+   height: 400px;
+   
+  
+  font-family: 'Libre Baskerville', serif;
+  
+    
+}
+#introSection div.small{
+    font-size: 1rem;
+}
+
+#sponsorsSection {
+display: flex;
+justify-content: center;
+padding: 10px 2px;
+color:white;
+font-size: 20px;
+height: 300px;
+background-color: rgb(99, 3, 3);
+font-family: 'Catamaran', sans-serif;
+}
+#sponsorsSection h2{
+    position: relative;
+    left: 45%;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 5px;
+    font-family: 'Catamaran', sans-serif;
+}
+
+#sponsors{
+height: 120px;
+max-width: 1000px;
+ margin: auto;
+}
+.spImage{
+    position: relative;
+    left: -10%;
+    height: 80%;
+    margin: 20px;
+}
+#missionSection  {
+    
+    width: 80%;
+     margin: auto;
+    height: 320px;
+    background-color:white;
+}
+#missionSection h2{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 5px;
+    font-family: 'Catamaran', sans-serif;
+
+}
+.card  {
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin: 23px 20px;
+    height: 209px;
+}
+.card h3 {
+    margin-top: 12px;
+   
+    padding: 12px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+    height: 125px;
+    padding: 0px 14px;
+    margin: 5px 9px;
+}
+.card-img img{
+    height: inherit;
+}
+.card-content{
+padding: 0 10px;
+}
+.card-content p{
+    padding: 0 10px;
+   font-size: 19px;
+}
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: white;
+    height: 80px;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#logo{
+    display: flex;
+    color: black;
+    align-items: center;
+    margin: 0 14px;
+    font-size: 28px;
+    margin-right: 40px;
+}
+#logo img{
+    height: 42px;
+    /* filter: invert(1); */
+}
+
